@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/menu"/>
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/logo1"/>
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="320dp"
+
+        android:layout_marginTop="30dp"
+
+        android:background="@drawable/logout1"/>
+
+    <ImageView
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/admininterface" />
+
+    <ImageView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:src="@drawable/userinterface" />
+    <!-- Add your desired views here -->
+
+
+</RelativeLayout>
